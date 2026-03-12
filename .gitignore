@@ -1,0 +1,29 @@
+# env
+.env
+.env.*
+!.env.example
+
+# venv
+.venv/
+venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# logs
+*.log
+
+# docker volumes / local data
+postgres_data/
+redis_data/
+pgadmin_data/
+pg_data/
+
+.postgres_data/
+.redis_data/
+.pgadmin_data/
